@@ -11,7 +11,7 @@ while True:
     if opc == 1:
         opcion_1()
     if opc == 2:
-        pass
+        opcion_2()
     if opc == 3:
         pass
     else:
