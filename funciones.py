@@ -1,7 +1,19 @@
-#Opcion 1
+#Listas:
 
+contactos = []
+
+
+#Opcion 1
 def opcion_1():
-    pass
+    print("Agregar contacto")
+    nombre = input("Ingrese nombre: ")
+    telefono = input("Ingrese teléfono: ")
+    correo = input("Ingrese correo: ")
+        #Un solo contacto:
+    contacto = {"nombre":nombre, "telefono":telefono, "correo":correo}
+        #Agragar a la lista:
+    contactos.append(contacto)
+    print("Contacto agregado con éxito")
 
 #Opcion 2
 

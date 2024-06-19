@@ -9,7 +9,7 @@ while True:
 4. Salir""")
     opc = int(input("Opción: "))
     if opc == 1:
-        pass
+        opcion_1()
     if opc == 2:
         pass
     if opc == 3:
