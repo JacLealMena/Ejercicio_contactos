@@ -13,6 +13,6 @@ while True:
     if opc == 2:
         opcion_2()
     if opc == 3:
-        pass
+        opcion_3()
     else:
         pass
